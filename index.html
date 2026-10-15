@@ -20,7 +20,7 @@
 
 <header class="site-head">
 <div class="container">
-<a class="wordmark" href="/">RINKBOOK</a>
+<a class="wordmark" href="/" aria-label="RINKBOOK Startseite">RINK<span>BOOK</span></a>
 <nav class="site-nav" aria-label="Hauptnavigation">
 <a href="#buecher">Bücher</a>
 <a href="#ueber">Über uns</a>
@@ -30,17 +30,21 @@
 </header>
 
 <main>
-<div class="intro container">
+<div class="hero">
+<div class="container hero-inner">
+<div class="hero-text">
 <h1>Technik, die man versteht.</h1>
 <p>RINKBOOK macht Ratgeber für Menschen, die mitreden wollen, ohne Informatik studiert zu haben: klar geschrieben, sorgfältig geprüft und mit Beispielen aus dem Alltag.</p>
+<div class="actions">
+<a class="button light" href="#buecher">Zu den Büchern</a>
+<a class="button outline" href="/ki/">Bonus zum KI-Buch</a>
 </div>
-
+</div>
 <div class="shelf" aria-label="Unsere Bücher">
-<div class="container">
-<a href="#ki"><img src="/ki-cover.jpg" width="600" height="900" alt="KI – endlich verständlich erklärt"></a>
-<a href="#passwort"><img src="/passwort-cover.jpg" width="338" height="522" alt="Mein Passwort-Buch"></a>
-<a href="#smarthome"><img src="/smarthome-cover.jpg" width="404" height="522" alt="Das Smart Home Protokollbuch"></a>
-<p class="caption"><strong>Drei Bücher, ein Anspruch:</strong> Technik soll man verstehen und im Griff behalten können – auch ohne Fachwissen.</p>
+<a href="#ki" style="--r:.667"><img src="/ki-cover.jpg" width="600" height="900" alt="KI – endlich verständlich erklärt" fetchpriority="high"></a>
+<a href="#passwort" style="--r:.648"><img src="/passwort-cover.jpg" width="338" height="522" alt="Mein Passwort-Buch"></a>
+<a href="#smarthome" style="--r:.774"><img src="/smarthome-cover.jpg" width="404" height="522" alt="Das Smart Home Protokollbuch"></a>
+</div>
 </div>
 </div>
 
@@ -70,7 +74,7 @@
 <article class="book" id="passwort">
 <div class="book-cover"><img src="/passwort-cover.jpg" width="338" height="522" alt="Buchcover: Mein Passwort-Buch" loading="lazy"></div>
 <div>
-<span class="status">Jetzt erhältlich</span>
+<span class="status live">Jetzt erhältlich</span>
 <h3>Mein Passwort-Buch</h3>
 <p class="subtitle">Zugangsdaten, PINs und PUKs in großer Schrift – mit A–Z-Register für 156 Konten</p>
 <p>Alle Zugangsdaten an einem Ort, offline und griffbereit. Die große Schrift ist gut lesbar, das Register von A bis Z hilft, jedes Konto schnell wiederzufinden – ohne Zettelwirtschaft und ohne Cloud.</p>
@@ -88,7 +92,7 @@
 <article class="book" id="smarthome">
 <div class="book-cover"><img src="/smarthome-cover.jpg" width="404" height="522" alt="Buchcover: Das Smart Home Protokollbuch" loading="lazy"></div>
 <div>
-<span class="status">Jetzt erhältlich</span>
+<span class="status live">Jetzt erhältlich</span>
 <h3>Das Smart Home Protokollbuch</h3>
 <p class="subtitle">Netzwerk-Dokumentation für Home Assistant, Zigbee und IP-Adressen</p>
 <p>Das Notfall-Handbuch fürs smarte Zuhause: Hier steht, welches Gerät welche IP-Adresse hat, wo welches Kabel liegt, welche Automatisierung was tut und wie das letzte Backup heißt. Damit auch dann alles wieder läuft, wenn mal etwas ausfällt – oder jemand anderes übernehmen muss.</p>
@@ -124,7 +128,7 @@
 <footer class="site-foot">
 <div class="container">
 <span>© 2026 RINKBOOK, Björn Rinker</span>
-<nav aria-label="Rechtliches"><a href="/impressum.html">Impressum</a><a href="/datenschutz.html">Datenschutz</a></nav>
+<nav aria-label="Rechtliches"><a href="mailto:info@rinkmaker.de">Kontakt</a><a href="/impressum.html">Impressum</a><a href="/datenschutz.html">Datenschutz</a></nav>
 </div>
 </footer>
 </body>
