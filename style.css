@@ -89,7 +89,10 @@ section.container{padding-top:96px}
 @media (max-width:760px){
   .intro{padding-top:44px}
   .shelf .container{min-height:0;padding-top:40px;flex-wrap:wrap}
-  .shelf .caption{margin-left:0;order:-1;flex-basis:100%;padding-bottom:4px}
+  .shelf .caption{margin-left:0;order:-1;flex-basis:100%;max-width:none;padding-bottom:4px}
+  .shelf .container{gap:12px}
+  .shelf a{flex:1 1 0;min-width:0}
+  .shelf img{width:100%;height:auto}
   .book{grid-template-columns:120px 1fr;padding:28px 0}
   .about{grid-template-columns:1fr}
   section.container{padding-top:64px}
