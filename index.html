@@ -3,48 +3,105 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>RINKBOOK – Ratgeber, die Technik verständlich machen</title>
-<meta name="description" content="RINKBOOK veröffentlicht Ratgeber, die Technik so erklären, dass jeder sie versteht – klar, praxisnah und ohne Fachchinesisch.">
+<title>RINKBOOK – Ratgeber, die Technik verständlich erklären</title>
+<meta name="description" content="RINKBOOK ist ein kleiner Verlag aus der Region Reutlingen. Unsere Ratgeber erklären Technik so, dass jeder sie versteht – von Künstlicher Intelligenz bis zur sicheren Passwortverwaltung.">
+<link rel="canonical" href="https://rinkbook.de/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="RINKBOOK – Ratgeber, die Technik verständlich erklären">
+<meta property="og:description" content="Bücher, die Technik klar und ohne Fachchinesisch erklären.">
+<meta property="og:url" content="https://rinkbook.de/">
+<meta property="og:image" content="https://rinkbook.de/ki-cover.jpg">
+<meta name="theme-color" content="#0d1b3e">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/Caladea-Bold.woff" as="font" type="font/woff" crossorigin>
 <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<div class="wrap wide">
-<a class="brand" href="/">RINK<b>BOOK</b></a>
 
-<header class="hero">
-<h1>Technik verständlich erklärt.</h1>
-<p>RINKBOOK veröffentlicht Ratgeber, die Technik so erklären, dass jeder sie versteht – klar, praxisnah und ohne Fachchinesisch.</p>
+<header class="site-head">
+<div class="container">
+<a class="wordmark" href="/">RINKBOOK</a>
+<nav class="site-nav" aria-label="Hauptnavigation">
+<a href="#buecher">Bücher</a>
+<a href="#ueber">Über uns</a>
+<a href="mailto:info@rinkmaker.de">Kontakt</a>
+</nav>
+</div>
 </header>
 
-<section>
-<h2>Bücher</h2>
-<div class="books">
+<main>
+<div class="intro container">
+<h1>Technik, die man versteht.</h1>
+<p>RINKBOOK macht Ratgeber für Menschen, die mitreden wollen, ohne Informatik studiert zu haben: klar geschrieben, sorgfältig geprüft und mit Beispielen aus dem Alltag.</p>
+</div>
 
-<!-- Neues Buch: einen <article>-Block kopieren und anpassen. -->
+<div class="shelf" aria-label="Unsere Bücher">
+<div class="container">
+<a href="#ki"><img src="/ki-cover.jpg" width="600" height="900" alt="KI – endlich verständlich erklärt"></a>
+<a href="#passwort"><img src="/passwort-cover.svg" width="600" height="900" alt="Mein Passwort-Buch"></a>
+<p class="caption"><strong>Zwei Bücher, ein Anspruch:</strong> Wer sie gelesen hat, versteht die Technik dahinter – und weiß, worauf es im Alltag ankommt.</p>
+</div>
+</div>
 
-<article class="book">
-<img src="/ki-cover.jpg" width="600" height="900" alt="Buchcover: KI – endlich verständlich erklärt">
+<section id="buecher" class="container">
+<h2 class="section-title">Bücher</h2>
+<p class="section-lead">Unsere Bücher erscheinen als Taschenbuch und E-Book bei Amazon. Zu jedem Buch gibt es kostenloses Zusatzmaterial hier auf der Website.</p>
+
+<article class="book" id="ki">
+<div class="book-cover"><img src="/ki-cover.jpg" width="600" height="900" alt="Buchcover: KI – endlich verständlich erklärt" loading="lazy"></div>
 <div>
-<span class="badge">Neu</span>
+<span class="status">Erscheint im Herbst 2026</span>
 <h3>KI – endlich verständlich erklärt</h3>
-<p>Wie Künstliche Intelligenz funktioniert, was sie kann und wo sie gefährlich wird. Mit 17 Grafiken, 30 verblüffenden Fakten, Quiz und Selbsttest. Stand 2026.</p>
-<a class="btn" href="/ki/">Bonusmaterial</a>
+<p class="subtitle">Wie Künstliche Intelligenz funktioniert, was sie kann und wo sie gefährlich wird</p>
+<p>Was steckt hinter ChatGPT, Bildgeneratoren und Stimmen-Klonen? Dieses Buch erklärt ohne Formeln, wie Maschinen lernen, warum ein Chatbot manchmal überzeugt Unsinn erzählt und wie Sie sich und Ihre Familie vor KI-Betrug schützen. Mit dem Stand der EU-Regeln vom Herbst 2026.</p>
+<dl class="facts">
+<dt>Umfang</dt><dd>140 Seiten, 17 Grafiken</dd>
+<dt>Extras</dt><dd>30 verblüffende Fakten, Quiz zu jedem Kapitel, Selbsttest, Checklisten</dd>
+<dt>Ausgaben</dt><dd>Taschenbuch (15,2 × 22,9 cm), E-Book</dd>
+<dt>Stand</dt><dd>Herbst 2026, mit über 80 Quellen</dd>
+</dl>
+<div class="actions">
+<a class="button" href="/ki/">Bonusmaterial öffnen</a>
+</div>
 </div>
 </article>
 
-<article class="book">
-<div class="ph pw" role="img" aria-label="Buchcover: Mein Passwort-Buch"><small>RINKBOOK</small>Mein Passwort-Buch</div>
+<article class="book" id="passwort">
+<div class="book-cover"><img src="/passwort-cover.svg" width="600" height="900" alt="Buchcover: Mein Passwort-Buch" loading="lazy"></div>
 <div>
-<span class="badge soon">Bald erhältlich</span>
+<span class="status">Erscheint in Kürze</span>
 <h3>Mein Passwort-Buch</h3>
-<p>Alle Zugangsdaten an einem sicheren Ort – mit A–Z-Register für 156 Konten. Ordnung statt Zettelwirtschaft.</p>
+<p class="subtitle">Zugangsdaten mit A–Z-Register für 156 Konten</p>
+<p>Alle Zugangsdaten an einem Ort, offline und griffbereit. Das Register von A bis Z hilft, jedes Konto schnell wiederzufinden – ohne Zettelwirtschaft und ohne Cloud.</p>
+<dl class="facts">
+<dt>Inhalt</dt><dd>Platz für 156 Konten, alphabetisches Register</dd>
+<dt>Ausgabe</dt><dd>Taschenbuch</dd>
+</dl>
 </div>
 </article>
-
-</div>
 </section>
 
-<footer><span>© 2026 RINKBOOK · Björn Rinker</span><span><a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz</a></span></footer>
+<section id="ueber" class="container">
+<h2 class="section-title">Über RINKBOOK</h2>
+<div class="about">
+<div>
+<p>Hinter RINKBOOK steht Björn Rinker, ein unabhängiger Entwickler aus der Region Reutlingen. Er baut Apps und smarte Geräte für Haus und Garten und arbeitet täglich mit Künstlicher Intelligenz.</p>
+<p>Die Bücher beantworten die Fragen, die dabei immer wieder auftauchen – von Freunden, Familie und Kunden.</p>
 </div>
+<ul class="promise">
+<li><h3>Verständlich statt Fachchinesisch</h3><p>Jeder Fachbegriff wird erklärt, jedes Thema mit einem Beispiel aus dem Alltag.</p></li>
+<li><h3>Geprüft und mit Quellen belegt</h3><p>Zahlen und Fälle sind nachgeprüft; die Quellen stehen im Anhang jedes Buchs.</p></li>
+<li><h3>Zusatzmaterial ohne Anmeldung</h3><p>Checklisten und Vorlagen gibt es kostenlos hier auf der Website – ohne Konto und ohne Tracking.</p></li>
+</ul>
+</div>
+</section>
+</main>
+
+<footer class="site-foot">
+<div class="container">
+<span>© 2026 RINKBOOK, Björn Rinker</span>
+<nav aria-label="Rechtliches"><a href="/impressum.html">Impressum</a><a href="/datenschutz.html">Datenschutz</a></nav>
+</div>
+</footer>
 </body>
 </html>

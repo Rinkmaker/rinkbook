@@ -1,0 +1,23 @@
+Caladea: SIL Open Font License 1.1
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Caladea font project
+Source: https://github.com/huertatipografica/Caladea
+
+Files: *
+Copyright:
+ 2012, Carolina Giovagnoli and Andres Torresi
+ 2012, Huerta Tipografia
+ 2012, The Caladea Project Authors
+License: OFL-1.1
+ Copyright 2012 The Caladea Project Authors (https://github.com/huertatipografica/Caladea)
+ .
+ This Font Software is licensed under the SIL Open Font License,
+ Version 1.1 as shown below.
+ .
+ SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+ .
+ PREAMBLE The goals of the Open Font License (OFL) are to stimulate
+ worldwide development of collaborative font projects, to support the font
+ creation efforts of academic and linguistic communities, and to provide
+
+Inter: SIL Open Font License 1.1, Copyright (c) 2016 The Inter Project Authors (https://github.com/rsms/inter)
